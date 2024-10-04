@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'location_controller.dart';
+import 'platform/location_controller.dart';
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
