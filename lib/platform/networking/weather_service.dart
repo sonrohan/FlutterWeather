@@ -3,7 +3,7 @@ import 'package:dio/dio.dart';
 class WeatherService {
   final Dio _dio = Dio();
 
-  final String _apiKey = 'uFPgqdV5WLEMCChYqEfNAkEdsA3iOpRX';
+  final String _apiKey = 'uFPgqdV5WLEMCChYqEfNAkEdsA3iOpRX'; // You can try this key but it's limited to a few API requests a day.
   final String _apiUrl = 'https://api.tomorrow.io/v4/weather/realtime';
 
   Future<WeatherResponse> fetchWeather(double latitude, double longitude) async {
